@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.7",
+    "headerhelp": "^0.0.4",
+    "node-banner": "^1.4.0",
+    "pino": "^8.19.0",
+    "terminal-kit": "^3.0.1"
+  },
+  "name": "dx-tools",
+  "version": "1.0.0",
+  "main": "dx.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node dx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcode-denpa/dx-tools.git"
+  },
+  "author": "Denis Putra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcode-denpa/dx-tools/issues"
+  },
+  "homepage": "https://github.com/dcode-denpa/dx-tools#readme",
+  "description": ""
+}
