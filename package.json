@@ -2,6 +2,7 @@
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
     "axios": "^1.6.7",
+    "cloudscraper": "^4.6.0",
     "headerhelp": "^0.0.4",
     "node-banner": "^1.4.0",
     "pino": "^8.19.0",
@@ -10,7 +11,6 @@
   "name": "dx-tools",
   "version": "1.0.0",
   "main": "dx.js",
-  "devDependencies": {},
   "scripts": {
     "test": "node dx.js"
   },
