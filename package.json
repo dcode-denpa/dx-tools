@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
+    "apify-client": "^2.9.3",
     "axios": "^1.6.7",
     "cloudscraper": "^4.6.0",
     "headerhelp": "^0.0.4",
