@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@caliph71/user-agent": "^0.1.0-stable",
     "@whiskeysockets/baileys": "^6.6.0",
     "apify-client": "^2.9.3",
     "axios": "^1.6.7",
