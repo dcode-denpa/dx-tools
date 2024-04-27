@@ -3,12 +3,17 @@
     "@caliph71/user-agent": "^0.1.0-stable",
     "@whiskeysockets/baileys": "^6.6.0",
     "apify-client": "^2.9.3",
+    "awesome-phonenumber": "^6.8.0",
     "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
     "cloudscraper": "^4.6.0",
+    "crypto": "^1.0.1",
     "headerhelp": "^0.0.4",
     "node-banner": "^1.4.0",
     "pino": "^8.19.0",
-    "terminal-kit": "^3.0.1"
+    "terminal-kit": "^3.0.1",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
   },
   "name": "dx-tools",
   "version": "1.0.0",
