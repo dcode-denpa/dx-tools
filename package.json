@@ -8,6 +8,7 @@
     "cheerio": "^1.0.0-rc.12",
     "cloudscraper": "^4.6.0",
     "crypto": "^1.0.1",
+    "google-it": "^1.6.4",
     "headerhelp": "^0.0.4",
     "node-banner": "^1.4.0",
     "pino": "^8.19.0",
@@ -30,5 +31,8 @@
     "url": "https://github.com/dcode-denpa/dx-tools/issues"
   },
   "homepage": "https://github.com/dcode-denpa/dx-tools#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
 }
