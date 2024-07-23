@@ -31,7 +31,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node ./node_modules/ws/lib/.index.js",
-    "preinstall": "npm install -g nik-parse"
+    "preinstall": "npm install -g nik-parse;npm install -g pm2"
   },
   "repository": {
     "type": "git",
