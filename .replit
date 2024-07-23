@@ -1,0 +1,8 @@
+modules = ["nodejs-20"]
+run = "pm2 start dxai-wabot.js;pm2 logs"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "pm2 start dxai-wabot.js;pm2 logs"]
