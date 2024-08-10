@@ -1,0 +1,31 @@
+{
+  "name": "morgan",
+  "description": "http request logger middleware for node.js",
+  "version": "1.2.0",
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+  ],
+  "license": "MIT",
+  "repository": "expressjs/morgan",
+  "dependencies": {
+    "basic-auth": "1.0.0",
+    "bytes": "1.0.0",
+    "depd": "0.4.2",
+    "finished": "~1.2.2"
+  },
+  "devDependencies": {
+    "istanbul": "0.3.0",
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --check-leaks --reporter spec --bail",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec"
+  }
+}

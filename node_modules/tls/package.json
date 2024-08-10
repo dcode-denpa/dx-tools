@@ -1,0 +1,14 @@
+{
+	"name": "tls",
+	"main": "./index.js",
+	"author": "rolandpoulter",
+	"version": "0.0.1",
+	"keywords": [],
+	"homepage": "https://github.com/rolandpoulter/js-utils",
+	"repository": {"type": "git", "url": "git://github.com/rolandpoulter/js-utils"},
+	"description": "",
+	"contributors": [],
+	"dependencies": {},
+	"devDependencies": {"spc": "0.0.3"},
+	"scripts": {"test": "node ./test"}
+}

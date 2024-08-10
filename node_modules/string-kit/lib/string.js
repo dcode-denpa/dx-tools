@@ -72,7 +72,9 @@ Object.assign( stringKit ,
 		wordwrap: require( './wordwrap.js' ) ,
 		naturalSort: require( './naturalSort.js' ) ,
 		fuzzy: require( './fuzzy.js' ) ,
-		StringNumber: require( './StringNumber.js' )
+		StringNumber: require( './StringNumber.js' ) ,
+		english: require( './english.js' ) ,
+		emoji: require( './emoji.js' )
 	}
 ) ;
 

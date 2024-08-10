@@ -1,0 +1,37 @@
+{
+  "name": "native-dns-packet",
+  "version": "0.1.1",
+  "authors": [
+    "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
+    "Greg Slepak <contact@taoeffect.com> (https://twitter.com/taoeffect)",
+    "Matthieu Rakotojaona"
+  ],
+  "description": "Raw DNS Packet Parsing and Writing",
+  "keywords": [
+    "dns",
+    "parsing"
+  ],
+  "homepage": "http://github.com/tjfontaine/native-dns-packet",
+  "bugs": {
+    "url": "http://github.com/tjfontaine/native-dns-packet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tjfontaine/native-dns-packet.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.5.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "buffercursor": ">= 0.0.12",
+    "ipaddr.js": ">= 0.1.1"
+  },
+  "devDependencies": {
+    "tap": ">= 0.4.3"
+  }
+}

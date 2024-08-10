@@ -28,10 +28,10 @@
 
 
 
-var map = require( './latinize-map.json' ) ;
+const latinizeMap = require( './json-data/latinize-map.json' ) ;
 
 module.exports = function( str ) {
-	return str.replace( /[^\u0000-\u007e]/g , ( c ) => { return map[ c ] || c ; } ) ;
+	return str.replace( /[^\u0000-\u007e]/g , ( c ) => { return latinizeMap[ c ] || c ; } ) ;
 } ;
 
 

@@ -1,0 +1,37 @@
+{
+  "name": "hpack",
+  "description": "An implementation of RFC7541 (a.k.a HPACK)",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maskit/hpack.git"
+  },
+  "keywords": [
+    "RFC7541",
+    "HPACK"
+  ],
+  "author": "Masakazu Kitajo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maskit/hpack/issues"
+  },
+  "homepage": "https://github.com/maskit/hpack",
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "blanket": "~1.1.6",
+    "coveralls": "^2.10.1",
+    "mocha-lcov-reporter": "0.0.1"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "hpack/lib"
+    }
+  }
+}
