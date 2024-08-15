@@ -9,6 +9,7 @@
     "cloudscraper": "^4.6.0",
     "cluster": "^0.7.7",
     "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
     "dns": "^0.2.2",
     "file-type": "^19.2.0",
     "fluent-ffmpeg": "^2.1.3",
